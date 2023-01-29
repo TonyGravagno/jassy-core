@@ -1,0 +1,3 @@
+name: scriptcraft2
+main: scriptcraft2.Main
+version: '${scriptcraft2_version}'
