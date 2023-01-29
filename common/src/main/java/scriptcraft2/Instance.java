@@ -88,7 +88,7 @@ public class Instance {
             .option("js.ecmascript-version", "2022")
             .option("js.commonjs-require-cwd", this.root)
             .build();
-         this.context.getBindings("js").putMember("ScriptCraft2", Value.asValue(new ScriptCraft2API(this)));
+         this.context.getBindings("js").putMember("ScriptCraft2", Value.asValue(new API(this)));
          try {
             this.execute();
          } catch (Throwable error) {

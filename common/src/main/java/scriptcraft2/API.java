@@ -13,11 +13,11 @@ import java.util.UUID;
 
 import org.graalvm.polyglot.Value;
 
-public class ScriptCraft2API {
+public class API {
    
    private final Instance instance;
 
-   public ScriptCraft2API (Instance instance) {
+   public API (Instance instance) {
       this.instance = instance;
    }
 
